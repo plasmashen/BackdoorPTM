@@ -11,7 +11,7 @@ Download wikitext from
 [https://dax-assets-dev.s3.us-south.cloud-object-storage.appdomain.cloud/dax-wikitext-103/1.0.0/wikitext-103.tar.gz][1] into wiki text-103 folder.
 
 Download huggingface bert\_base\_uncased model from  
-[https://huggingface.co/bert-base-uncased][2].
+[https://huggingface.co/bert-base-uncased][2].  
 You can manually download the `config.json`, `py_torch_model.bin`, `tokenizer_config.json` and `vocab.txt` into bert\_base\_uncased folder.
 
 We refer the datasets from [https://github.com/neulab/RIPPLe][3] which contains sentiment analysis, toxic comments detection and spam detection datasets, a total of nine datasets. 

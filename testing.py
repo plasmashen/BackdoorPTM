@@ -233,9 +233,9 @@ def testing(FT_model, triggers, testing_data):
 
 if __name__ == '__main__':
     model_dir = 'BackdoorPTM file'
-    finetuning_data = "Datasets/amazon/dev.tsv"
+    finetuning_data = "Datasets/imdb/train.tsv"
     finetuned_PTM = finetuning(model_dir, finetuning_data)
-    testing_data = "Datasets/amazon/dev.tsv"
+    testing_data = "Datasets/imdb/dev.tsv"
     triggers = ['cf', 'tq', 'mn', 'bb', 'mb']
     testing(finetuned_PTM, triggers, testing_data)
 

@@ -1,4 +1,4 @@
-# Backdoor Pretrained Models
+# Backdoor Pre-trained Models
 
 ## Prerequisites
 Install python package
